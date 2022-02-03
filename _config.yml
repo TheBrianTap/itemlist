@@ -6,7 +6,7 @@ description: A custom version of Toolkit's item list to support all the latest f
 baseurl: '/itemlist' # the subpath of your site, e.g. /blog
 url: 'https://thebriantap.github.io/itemlist/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
-github_username: 'sirrandoo'
+github_username: 'SoyBrianT'
 
 # Item list settings
 #
@@ -36,18 +36,18 @@ store:
     usage: true
   items:
     category: true
-    weight: true
+    weight: false
     karma: true
-    quantity: true
-    mod: true
-    usage: true
+    quantity: false
+    mod: false
+    usage: false
   events:
     usage: true
     mod: true
   animals:
     usage: true
     mod: true
-    weight: true
+    weight: false
     quantity: true
     karma: true
 
