@@ -43,7 +43,7 @@ store:
     usage: false
   events:
     usage: true
-    mod: true
+    mod: false
   animals:
     usage: true
     mod: true
