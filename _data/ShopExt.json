@@ -1,7 +1,7 @@
-﻿{
+{
   "traits": [
     {
-      "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
+      "description": "Timmy disfruta de la sensación de libertad que resulta de estar completamente desnudPAWN_gender ? o : a. Puede soportar la ropa, pero será más feliz si no trae nada.",
       "stats": [
 
       ],
@@ -23,7 +23,7 @@
         ]
       },
       "defName": "Nudist",
-      "name": "nudist",
+      "name": "nudista",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -31,9 +31,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
+      "description": "Timmy se apresura a hacer daño a la gente y no le importa ver sangre o muerte. Es cuatro veces más probable que empiece una pelea.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -49,11 +49,11 @@
 
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "Bloodlust",
-      "name": "bloodlust",
+      "name": "sanguinario",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -61,13 +61,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "description": "Timmy es una persona excepcionalmente agradable y generosa. él nunca insulta a los demás y a veces ofrece palabras amables para alegrar el ánimo de los que le rodean. Tampoco juzga a las personas por su aspecto. Su simpatía también le hace más proclive a conformarse con las opiniones predominantes.",
       "stats": [
-
+        "x200% factor de pérdida de certeza global"
       ],
       "conflicts": [
-        "abrasive",
-        "psychopath"
+        "intratable",
+        "psicópata"
       ],
       "bypassLimit": false,
       "data": {
@@ -77,15 +77,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "abrasive",
-          "psychopath"
+          "intratable",
+          "psicópata"
         ],
         "stats": [
-
+          "x200% factor de pérdida de certeza global"
         ]
       },
       "defName": "Kind",
-      "name": "kind",
+      "name": "amable",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -93,9 +93,10 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
+      "description": "Timmy no tiene empatía. El sufrimiento de los demás no le molesta en lo más mínimo. A él no le importa que otras personas sean descuartizadas, se les deje sin enterrar, se les encarcele o que sean vendidas a la esclavitud, a no ser que lo afecte directamente. él no podrá mejorar su humor socializando con la gente.",
       "stats": [
-
+        "Mórbido meditation focus type allowed.",
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -111,11 +112,12 @@
 
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed.",
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "Psychopath",
-      "name": "psychopath",
+      "name": "psicópata",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -123,9 +125,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
+      "description": "A Timmy le enseñaron que comer carne humana está mal y es algo horrible. Pero una vez, hace mucho tiempo, él la probó... y le gustó.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -141,11 +143,11 @@
 
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "Cannibal",
-      "name": "cannibal",
+      "name": "caníbal",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -153,9 +155,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
+      "description": "Timmy siempre dice exactamente lo que le pasa por la cabeza, especialmente si es algo que lo molesta. Y eso tiende a irritar a la gente.",
       "stats": [
-
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -171,11 +173,11 @@
 
         ],
         "stats": [
-
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "Abrasive",
-      "name": "abrasive",
+      "name": "intratable",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -183,17 +185,18 @@
       "degree": 0
     },
     {
-      "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
+      "description": "La inteligencia de Timmy es demasiado elevada para su propio bien. él aprende cualquier cosa mucho más rápido que todos los demás, pero puede comportarse de forma excéntrica.",
       "stats": [
-        "+75% global learning factor",
-        "+12% mental break threshold"
+        "+75% factor de aprendizaje global",
+        "+12% umbral de colapso mental",
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile",
-        "slowlearner"
+        "voluntaddehierro",
+        "resuelto",
+        "nervioso",
+        "inestable",
+        "aprendizlento"
       ],
       "bypassLimit": false,
       "data": {
@@ -203,19 +206,20 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile",
-          "slowlearner"
+          "voluntaddehierro",
+          "resuelto",
+          "nervioso",
+          "inestable",
+          "aprendizlento"
         ],
         "stats": [
-          "+75% global learning factor",
-          "+12% mental break threshold"
+          "+75% factor de aprendizaje global",
+          "+12% umbral de colapso mental",
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "TooSmart",
-      "name": "toosmart",
+      "name": "demasiadolisto",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -223,17 +227,17 @@
       "degree": 0
     },
     {
-      "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
+      "description": "A Timmy le encanta pelear cara a cara. Su puntería aumenta significativamente durante el combate cuerpo a cuerpo, pero él se enfadará bastante si se le pide que lleve un arma a distancia.",
       "stats": [
-        "Shoot frenzy inspiration disabled.",
-        "+4 melee",
-        "-4 shooting",
-        "+4.0 melee hit chance"
+        "Frenesí de tiro inspiration disabled.",
+        "+4 cuerpo a cuerpo",
+        "-4 tiro",
+        "+4.0 prob. de golpe cuerpo a cuerpo"
       ],
       "conflicts": [
-        "carefulshooter",
-        "trigger-happy",
-        "wimp"
+        "tiradorcuidadoso",
+        "gatilloalegre",
+        "cobarde"
       ],
       "bypassLimit": false,
       "data": {
@@ -243,19 +247,19 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "carefulshooter",
-          "trigger-happy",
-          "wimp"
+          "tiradorcuidadoso",
+          "gatilloalegre",
+          "cobarde"
         ],
         "stats": [
-          "Shoot frenzy inspiration disabled.",
-          "+4 melee",
-          "-4 shooting",
-          "+4.0 melee hit chance"
+          "Frenesí de tiro inspiration disabled.",
+          "+4 cuerpo a cuerpo",
+          "-4 tiro",
+          "+4.0 prob. de golpe cuerpo a cuerpo"
         ]
       },
       "defName": "Brawler",
-      "name": "brawler",
+      "name": "luchador",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -263,12 +267,12 @@
       "degree": 0
     },
     {
-      "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
+      "description": "Timmy encuentra algo emocionante en ser heridPAWN_gender ? o : a. él no sabe por qué, su cerebro está programado de manera diferente.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
-
+        "cobarde"
       ],
       "bypassLimit": false,
       "data": {
@@ -278,14 +282,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-
+          "cobarde"
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "Masochist",
-      "name": "masochist",
+      "name": "masoquista",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -293,7 +297,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
+      "description": "A Timmy le gusta estar despiertPAWN_gender ? o : a durante la noche, y dormir durante el día.\n\n recibe un bono de humor si se despierta por la noche (23h-6h) y una pérdida de humor si se despierta durante el día (11h-18h).\n\nNo sufre de penalización de humor por estar en la oscuridad.",
       "stats": [
 
       ],
@@ -315,7 +319,7 @@
         ]
       },
       "defName": "NightOwl",
-      "name": "nightowl",
+      "name": "nocturno",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -323,13 +327,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
+      "description": "Timmy necesita un dormitorio realmente impresionante. Pierde humor si no consigue lo que quiere.",
       "stats": [
 
       ],
       "conflicts": [
-        "ascetic",
-        "jealous"
+        "austero",
+        "celoso"
       ],
       "bypassLimit": false,
       "data": {
@@ -339,15 +343,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "jealous"
+          "austero",
+          "celoso"
         ],
         "stats": [
 
         ]
       },
       "defName": "Greedy",
-      "name": "greedy",
+      "name": "codicioso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -355,13 +359,13 @@
       "degree": 0
     },
     {
-      "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
+      "description": "Para Timmy es degradante tener un dormitorio menos impresionante que el de alguien más. él pierde humor si algún colono tiene un dormitorio más impresionante.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
-        "ascetic",
-        "greedy"
+        "austero",
+        "codicioso"
       ],
       "bypassLimit": false,
       "data": {
@@ -371,15 +375,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "greedy"
+          "austero",
+          "codicioso"
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "Jealous",
-      "name": "jealous",
+      "name": "celoso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -387,14 +391,16 @@
       "degree": 0
     },
     {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "description": "Timmy ha renunciado a las comodidades físicas y a los placeres en favor de un estilo de vida simple y puro. él será infeliz si tiene un dormitorio demasiado impresionante. A él también le disgusta la comida elegante y prefiere comer su comida cruda. Nunca juzga a los demás por su apariencia.",
       "stats": [
-
+        "Artístico meditation focus type disabled.",
+        "Mínimo meditation focus type allowed.",
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
-        "greedy",
-        "jealous",
-        "gourmand"
+        "codicioso",
+        "celoso",
+        "glotón"
       ],
       "bypassLimit": false,
       "data": {
@@ -404,16 +410,18 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "greedy",
-          "jealous",
-          "gourmand"
+          "codicioso",
+          "celoso",
+          "glotón"
         ],
         "stats": [
-
+          "Artístico meditation focus type disabled.",
+          "Mínimo meditation focus type allowed.",
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "Ascetic",
-      "name": "ascetic",
+      "name": "austero",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -421,16 +429,16 @@
       "degree": 0
     },
     {
-      "description": "Timmy is romantically attracted to people of his own gender.",
+      "description": "A Timmy le atrae la gente de su mismo sexo.",
       "stats": [
 
       ],
       "conflicts": [
 
       ],
-      "bypassLimit": false,
+      "bypassLimit": true,
       "data": {
-        "canBypassLimit": false,
+        "canBypassLimit": true,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
@@ -443,7 +451,7 @@
         ]
       },
       "defName": "Gay",
-      "name": "gay",
+      "name": "homosexual",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -451,7 +459,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy is romantically attracted to both men and women.",
+      "description": "Timmy se siente románticamente atraídPAWN_gender ? o : a tanto por hombres como por mujeres.",
       "stats": [
 
       ],
@@ -481,7 +489,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no sexual attraction to anyone at all.",
+      "description": "Timmy no tiene ninguna atracción sexual hacia nadie en absoluto.",
       "stats": [
 
       ],
@@ -511,7 +519,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
+      "description": "La voz de Timmy tiene una cualidad aguda y nasal terriblemente incómoda al oído humano. Esto predispone a los demás contra él.",
       "stats": [
 
       ],
@@ -533,7 +541,7 @@
         ]
       },
       "defName": "AnnoyingVoice",
-      "name": "annoyingvoice",
+      "name": "vozchillona",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -541,7 +549,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
+      "description": "Timmy tiene una respiración muy sonora y profunda todo el tiempo. Además, siempre está sudando. Los demás se sienten incómodos a su alrededor.",
       "stats": [
 
       ],
@@ -563,7 +571,7 @@
         ]
       },
       "defName": "CreepyBreathing",
-      "name": "creepybreathing",
+      "name": "respiraciónespeluznante",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -571,8 +579,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
+      "description": "Timmy ama el fuego. Nunca apagará los incendios. Para aliviar el estrés, ocasionalmente encenderá fuego al azar. Esto sucede más a menudo si su humor es bajo.",
       "stats": [
+        "Llameante meditation focus type allowed.",
         "Only mental break \"FireStartingSpree\" allowed."
       ],
       "conflicts": [
@@ -589,11 +598,12 @@
 
         ],
         "stats": [
+          "Llameante meditation focus type allowed.",
           "Only mental break \"FireStartingSpree\" allowed."
         ]
       },
       "defName": "Pyromaniac",
-      "name": "pyromaniac",
+      "name": "pirómano",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -601,12 +611,14 @@
       "degree": 0
     },
     {
-      "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
+      "description": "Timmy es débil y cobarde. Incluso un poco de dolor lo inmovilizará.",
       "stats": [
-        "-60% pain shock threshold"
+        "-60% umbral de dolor",
+        "x200% factor de pérdida de certeza global"
       ],
       "conflicts": [
-        "brawler"
+        "luchador",
+        "masoquista"
       ],
       "bypassLimit": false,
       "data": {
@@ -616,14 +628,16 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "luchador",
+          "masoquista"
         ],
         "stats": [
-          "-60% pain shock threshold"
+          "-60% umbral de dolor",
+          "x200% factor de pérdida de certeza global"
         ]
       },
       "defName": "Wimp",
-      "name": "wimp",
+      "name": "cobarde",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -631,10 +645,10 @@
       "degree": 0
     },
     {
-      "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
+      "description": "Timmy tiene una remarcable inteligencia cinestésica. él parece bailar alrededor del peligro con una gracia preternatural.",
       "stats": [
-        "+15.0 melee dodge chance",
-        "x10% trap spring chance"
+        "+15.0 prob. de esquivar golpes CaC.",
+        "x10% prob. de activación de trampa"
       ],
       "conflicts": [
 
@@ -650,12 +664,12 @@
 
         ],
         "stats": [
-          "+15.0 melee dodge chance",
-          "x10% trap spring chance"
+          "+15.0 prob. de esquivar golpes CaC.",
+          "x10% prob. de activación de trampa"
         ]
       },
       "defName": "Nimble",
-      "name": "nimble",
+      "name": "ágil",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -663,9 +677,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has a knack for learning. he picks things up much faster than others.",
+      "description": "Timmy tiene un don para aprender. él capta las cosas mucho más rápido que otros.",
       "stats": [
-        "+75% global learning factor"
+        "+75% factor de aprendizaje global"
       ],
       "conflicts": [
 
@@ -681,11 +695,11 @@
 
         ],
         "stats": [
-          "+75% global learning factor"
+          "+75% factor de aprendizaje global"
         ]
       },
       "defName": "FastLearner",
-      "name": "fastlearner",
+      "name": "aprendizrápido",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -693,12 +707,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy is slow on the uptake. he learns much slower than others.",
+      "description": "Timmy es lentPAWN_gender ? o : a en la captación. Aprende mucho más lento que otros.",
       "stats": [
-        "-75% global learning factor"
+        "-75% factor de aprendizaje global",
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
-        "toosmart"
+        "demasiadolisto"
       ],
       "bypassLimit": false,
       "data": {
@@ -708,14 +723,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "toosmart"
+          "demasiadolisto"
         ],
         "stats": [
-          "-75% global learning factor"
+          "-75% factor de aprendizaje global",
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "SlowLearner",
-      "name": "slowlearner",
+      "name": "aprendizlento",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -723,9 +739,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
+      "description": "Timmy no necesita estar al aire libre. él nunca se sentirá encerradPAWN_gender ? o : a ni tendrá claustrofobia, no importa cuánto tiempo se quede adentro y no le molesta la oscuridad.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -741,11 +757,11 @@
 
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "Undergrounder",
-      "name": "undergrounder",
+      "name": "subterráneo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -753,12 +769,12 @@
       "degree": 0
     },
     {
-      "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced by artificial body parts.",
+      "description": "Se siente limitadPAWN_gender ? o : a en su débil cuerpo humano. A menudo sueña con ser mejoradPAWN_gender ? o : a con partes del cuerpo artificiales.",
       "stats": [
 
       ],
       "conflicts": [
-        "bodypurist"
+        "puristacorporal"
       ],
       "bypassLimit": false,
       "data": {
@@ -768,14 +784,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "bodypurist"
+          "puristacorporal"
         ],
         "stats": [
 
         ]
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "modificadordelcuerpo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -783,12 +799,12 @@
       "degree": 0
     },
     {
-      "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts are unethical and disgusting.",
+      "description": "Timmy cree que el cuerpo humano está limitado por una razón. Para él, las partes artificiales del cuerpo son poco éticas y repugnantes.",
       "stats": [
 
       ],
       "conflicts": [
-        "transhumanist"
+        "modificadordelcuerpo"
       ],
       "bypassLimit": false,
       "data": {
@@ -798,14 +814,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "transhumanist"
+          "modificadordelcuerpo"
         ],
         "stats": [
 
         ]
       },
       "defName": "BodyPurist",
-      "name": "bodypurist",
+      "name": "puristacorporal",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -813,7 +829,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy really dislikes and distrusts men.",
+      "description": "Timmy realmente odia y desconfía de los hombres.",
       "stats": [
 
       ],
@@ -835,7 +851,7 @@
         ]
       },
       "defName": "DislikesMen",
-      "name": "misandrist",
+      "name": "misándrico",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -843,7 +859,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy really dislikes and distrusts women.",
+      "description": "Timmy realmente odia y desconfía de las mujeres.",
       "stats": [
 
       ],
@@ -865,7 +881,7 @@
         ]
       },
       "defName": "DislikesWomen",
-      "name": "misogynist",
+      "name": "misógino",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -873,7 +889,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
+      "description": "Timmy tiene una memoria fantástica para los detalles. él perderá habilidades no utilizadas a la mitad del ritmo de otras personas.",
       "stats": [
 
       ],
@@ -895,7 +911,7 @@
         ]
       },
       "defName": "GreatMemory",
-      "name": "greatmemory",
+      "name": "granmemoria",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -903,9 +919,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
+      "description": "Timmy tiene piel gruesa, carne densa y huesos fuertes. él recibe mucho menos daño que otras personas por los mismos golpes. él es extremadamente difícil de matar.",
       "stats": [
-        "x50% incoming damage multiplier"
+        "x50% multiplicador de daño recibido"
       ],
       "conflicts": [
 
@@ -921,11 +937,11 @@
 
         ],
         "stats": [
-          "x50% incoming damage multiplier"
+          "x50% multiplicador de daño recibido"
         ]
       },
       "defName": "Tough",
-      "name": "tough",
+      "name": "resistente",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -933,9 +949,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
+      "description": "Timmy se siente alienadPAWN_gender ? o : a e incomprendidPAWN_gender ? o : a por otros seres humanos. él tendrá una constante perdida de humor, pero tendrá una probabilidad del (50%) de obtener una inspiración creativa después de sufrir un colapso mental.",
       "stats": [
-
+        "Mórbido meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -951,11 +967,11 @@
 
         ],
         "stats": [
-
+          "Mórbido meditation focus type allowed."
         ]
       },
       "defName": "TorturedArtist",
-      "name": "torturedartist",
+      "name": "artistatorturado",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -963,13 +979,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
+      "description": "La vida de Timmy gira en torno a la comida. Le entra hambre rápidamente, y de vez en cuando se ve superadPAWN_gender ? o : a por el impulso de comer vorazmente, incluso cuando no tiene hambre.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "+4 cocina"
       ],
       "conflicts": [
-        "ascetic"
+        "austero"
       ],
       "bypassLimit": false,
       "data": {
@@ -979,15 +995,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic"
+          "austero"
         ],
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
+          "+4 cocina"
         ]
       },
       "defName": "Gourmand",
-      "name": "gourmand",
+      "name": "glotón",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -995,9 +1011,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
+      "description": "Timmy no necesita dormir tanto como una persona normal. Si él está durmiendo en una cama o en el suelo, estará completamente descansadPAWN_gender ? o : a en dos tercios del tiempo habitual.",
       "stats": [
-        "+50% rest rate multiplier"
+        "+50% multi. de la tasa de reposo"
       ],
       "conflicts": [
 
@@ -1013,11 +1029,11 @@
 
         ],
         "stats": [
-          "+50% rest rate multiplier"
+          "+50% multi. de la tasa de reposo"
         ]
       },
       "defName": "QuickSleeper",
-      "name": "quicksleeper",
+      "name": "sueñorápido",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1025,10 +1041,10 @@
       "degree": 0
     },
     {
-      "description": "Timmy is always falling behind the group whenever he goes anywhere.",
+      "description": "Timmy siempre se queda atrás cada vez que viaja en grupo.",
       "stats": [
-        "Go frenzy inspiration disabled.",
-        "-0.20 move speed"
+        "Frenesí de movimiento inspiration disabled.",
+        "-0.20 velocidad de movimiento"
       ],
       "conflicts": [
 
@@ -1044,12 +1060,12 @@
 
         ],
         "stats": [
-          "Go frenzy inspiration disabled.",
-          "-0.20 move speed"
+          "Frenesí de movimiento inspiration disabled.",
+          "-0.20 velocidad de movimiento"
         ]
       },
       "defName": "SpeedOffset",
-      "name": "slowpoke",
+      "name": "pausado",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1057,9 +1073,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy likes to be where he's going. he walks quicker than most people.",
+      "description": "A Timmy le gusta llegar a los sitios rápido. él camina más rápido que el resto de la gente.",
       "stats": [
-        "+0.20 move speed"
+        "+0.20 velocidad de movimiento"
       ],
       "conflicts": [
 
@@ -1075,11 +1091,11 @@
 
         ],
         "stats": [
-          "+0.20 move speed"
+          "+0.20 velocidad de movimiento"
         ]
       },
       "defName": "SpeedOffset",
-      "name": "fastwalker",
+      "name": "conprisa",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1087,9 +1103,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
+      "description": "Timmy siempre se mueve como si tuviera prisa, tan deprisa que normalmente deja atrás a todos los demás.",
       "stats": [
-        "+0.40 move speed"
+        "+0.40 velocidad de movimiento"
       ],
       "conflicts": [
 
@@ -1105,11 +1121,11 @@
 
         ],
         "stats": [
-          "+0.40 move speed"
+          "+0.40 velocidad de movimiento"
         ]
       },
       "defName": "SpeedOffset",
-      "name": "jogger",
+      "name": "trotador",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1117,7 +1133,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Timmy tiene una fascinación intensa por los químicos recreativos. El consumo de drogas recreativas mejorará el humor, mientras que la abstención conducirá a una creciente frustración a lo largo del tiempo y posiblemente a borracheras de drogas. Ignorará las directivas de no usar drogas recreativas, y consumirá más que una persona normal.",
       "stats": [
 
       ],
@@ -1139,7 +1155,7 @@
         ]
       },
       "defName": "DrugDesire",
-      "name": "chemicalfascination",
+      "name": "fascinaciónporlosquímicos",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1147,7 +1163,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Timmy tiene un interés por los químicos recreativos. El consumo de drogas recreativas mejorará el humor, mientras que la abstención conducirá a una creciente frustración a lo largo del tiempo y posiblemente a borracheras de drogas. Ignorará las directivas de no usar drogas recreativas, y consumirá más que una persona normal.",
       "stats": [
 
       ],
@@ -1169,7 +1185,7 @@
         ]
       },
       "defName": "DrugDesire",
-      "name": "chemicalinterest",
+      "name": "interésporlosquímicos",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1177,10 +1193,10 @@
       "degree": 1
     },
     {
-      "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
+      "description": "Timmy aborrece la idea de consumir cualquier sustancia con fines recreativos y se abstiene de consumir alcohol o drogas.",
       "stats": [
-        "Binging on drug mental state disabled.",
-        "Binging on drug mental state disabled."
+        "Euforia por drogas mental state disabled.",
+        "Euforia extrema por drogas mental state disabled."
       ],
       "conflicts": [
 
@@ -1196,12 +1212,12 @@
 
         ],
         "stats": [
-          "Binging on drug mental state disabled.",
-          "Binging on drug mental state disabled."
+          "Euforia por drogas mental state disabled.",
+          "Euforia extrema por drogas mental state disabled."
         ]
       },
       "defName": "DrugDesire",
-      "name": "teetotaler",
+      "name": "abstemio",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1209,7 +1225,7 @@
       "degree": -1
     },
     {
-      "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
+      "description": "Timmy considera alentadora cualquier situación, siempre, sin importarle cuál sea.",
       "stats": [
 
       ],
@@ -1231,7 +1247,7 @@
         ]
       },
       "defName": "NaturalMood",
-      "name": "sanguine",
+      "name": "confiado",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1239,7 +1255,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
+      "description": "Timmy tiene una inclinación natural hacia el optimismo. Es difícil entristecerlo.",
       "stats": [
 
       ],
@@ -1261,7 +1277,7 @@
         ]
       },
       "defName": "NaturalMood",
-      "name": "optimist",
+      "name": "optimista",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1269,7 +1285,7 @@
       "degree": 1
     },
     {
-      "description": "Timmy tends to look on the bad side of life.",
+      "description": "Timmy suele centrarse en el lado negativo de las cosas.",
       "stats": [
 
       ],
@@ -1291,7 +1307,7 @@
         ]
       },
       "defName": "NaturalMood",
-      "name": "pessimist",
+      "name": "pesimista",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1299,7 +1315,7 @@
       "degree": -1
     },
     {
-      "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
+      "description": "Timmy siempre es infeliz. él tiene problemas para mantenerse de buen humor, incluso cuando todo le va bien.",
       "stats": [
 
       ],
@@ -1321,7 +1337,7 @@
         ]
       },
       "defName": "NaturalMood",
-      "name": "depressive",
+      "name": "depresivo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1329,9 +1345,10 @@
       "degree": -2
     },
     {
-      "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
+      "description": "La determinación de Timmy está protegida por un escudo de hierro. él sigue adelante a pesar de cualquier contratiempo, incluso los que harían rendirse a cualquier otro.",
       "stats": [
-        "-18% mental break threshold"
+        "-18% umbral de colapso mental",
+        "x25% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -1347,11 +1364,12 @@
 
         ],
         "stats": [
-          "-18% mental break threshold"
+          "-18% umbral de colapso mental",
+          "x25% factor de pérdida de certeza global"
         ]
       },
       "defName": "Nerves",
-      "name": "iron-willed",
+      "name": "voluntaddehierro",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1359,9 +1377,10 @@
       "degree": 2
     },
     {
-      "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
+      "description": "Timmy tiene una estabilidad mental firme, no se quebrará bajo las situaciones de estrés que quebrarían a la mayoría de personas.",
       "stats": [
-        "-9% mental break threshold"
+        "-9% umbral de colapso mental",
+        "x50% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -1377,11 +1396,12 @@
 
         ],
         "stats": [
-          "-9% mental break threshold"
+          "-9% umbral de colapso mental",
+          "x50% factor de pérdida de certeza global"
         ]
       },
       "defName": "Nerves",
-      "name": "steadfast",
+      "name": "resuelto",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1389,9 +1409,10 @@
       "degree": 1
     },
     {
-      "description": "Timmy tends to crack under pressure.",
+      "description": "Timmy tiende a flaquear al ser sometidPAWN_gender ? o : a a presión.",
       "stats": [
-        "+8% mental break threshold"
+        "+8% umbral de colapso mental",
+        "x200% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -1407,11 +1428,12 @@
 
         ],
         "stats": [
-          "+8% mental break threshold"
+          "+8% umbral de colapso mental",
+          "x200% factor de pérdida de certeza global"
         ]
       },
       "defName": "Nerves",
-      "name": "nervous",
+      "name": "nervioso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1419,9 +1441,10 @@
       "degree": -1
     },
     {
-      "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
+      "description": "Timmy está continuamente a punto de estallar ante una situación problemática. él es quien primero se quiebra ante una situación difícil.",
       "stats": [
-        "+15% mental break threshold"
+        "+15% umbral de colapso mental",
+        "x300% factor de pérdida de certeza global"
       ],
       "conflicts": [
 
@@ -1437,11 +1460,12 @@
 
         ],
         "stats": [
-          "+15% mental break threshold"
+          "+15% umbral de colapso mental",
+          "x300% factor de pérdida de certeza global"
         ]
       },
       "defName": "Nerves",
-      "name": "volatile",
+      "name": "inestable",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1449,10 +1473,10 @@
       "degree": -2
     },
     {
-      "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
+      "description": "A Timmy le gusta que todo esté siempre en su sitio. Trabajará más que la mayoría de las personas para conseguir que las cosas estén como él quiere. Pero en ocasiones, sus nervios lo derrotan.",
       "stats": [
-        "+20% global work speed",
-        "+8% mental break threshold"
+        "+20% velocidad de trabajo general",
+        "+8% umbral de colapso mental"
       ],
       "conflicts": [
 
@@ -1468,12 +1492,12 @@
 
         ],
         "stats": [
-          "+20% global work speed",
-          "+8% mental break threshold"
+          "+20% velocidad de trabajo general",
+          "+8% umbral de colapso mental"
         ]
       },
       "defName": "Neurotic",
-      "name": "neurotic",
+      "name": "neurótico",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1481,10 +1505,10 @@
       "degree": 1
     },
     {
-      "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
+      "description": "Timmy no para de estresarse con todas las cosas que hay por hacer. Trabajará como un animal para que las cosas estén como él quiere. Pero sus nervios pueden facilmente derrotarlo.",
       "stats": [
-        "+40% global work speed",
-        "+14% mental break threshold"
+        "+40% velocidad de trabajo general",
+        "+14% umbral de colapso mental"
       ],
       "conflicts": [
 
@@ -1500,12 +1524,12 @@
 
         ],
         "stats": [
-          "+40% global work speed",
-          "+14% mental break threshold"
+          "+40% velocidad de trabajo general",
+          "+14% umbral de colapso mental"
         ]
       },
       "defName": "Neurotic",
-      "name": "veryneurotic",
+      "name": "muyneurótico",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1513,9 +1537,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
+      "description": "A Timmy le parece fácil mantenerse concentradPAWN_gender ? o : a en el trabajo y hacer las cosas más rápido que a la mayoría.",
       "stats": [
-        "+35% global work speed"
+        "+35% velocidad de trabajo general"
       ],
       "conflicts": [
 
@@ -1531,11 +1555,11 @@
 
         ],
         "stats": [
-          "+35% global work speed"
+          "+35% velocidad de trabajo general"
         ]
       },
       "defName": "Industriousness",
-      "name": "industrious",
+      "name": "diligente",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1543,9 +1567,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
+      "description": "Timmy es PAWN_gender ? un trabajador nato : una trabajadora nata. Terminará cualquier tarea mucho antes que los demás.",
       "stats": [
-        "+20% global work speed"
+        "+20% velocidad de trabajo general"
       ],
       "conflicts": [
 
@@ -1561,11 +1585,11 @@
 
         ],
         "stats": [
-          "+20% global work speed"
+          "+20% velocidad de trabajo general"
         ]
       },
       "defName": "Industriousness",
-      "name": "hardworker",
+      "name": "muytrabajador",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1573,9 +1597,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy is a little bit lazy.",
+      "description": "Timmy es un poco flojPAWN_gender ? o : a.",
       "stats": [
-        "-20% global work speed"
+        "-20% velocidad de trabajo general"
       ],
       "conflicts": [
 
@@ -1591,11 +1615,11 @@
 
         ],
         "stats": [
-          "-20% global work speed"
+          "-20% velocidad de trabajo general"
         ]
       },
       "defName": "Industriousness",
-      "name": "lazy",
+      "name": "haragán",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1603,9 +1627,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
+      "description": "A Timmy le encanta estar sin hacer nada y odia cualquier cosa productiva. Se mueve despacio y rara vez se puede centrar en una sola tarea.",
       "stats": [
-        "-35% global work speed"
+        "-35% velocidad de trabajo general"
       ],
       "conflicts": [
 
@@ -1621,11 +1645,11 @@
 
         ],
         "stats": [
-          "-35% global work speed"
+          "-35% velocidad de trabajo general"
         ]
       },
       "defName": "Industriousness",
-      "name": "slothful",
+      "name": "perezoso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1633,9 +1657,9 @@
       "degree": -2
     },
     {
-      "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
+      "description": "La mente de Timmy podría usarse como un diapasón psíquico. él es extremadamene sensible a fenomenos psíquicos.",
       "stats": [
-        "+80% psychic sensitivity"
+        "+80% sensibilidad psíquica"
       ],
       "conflicts": [
 
@@ -1651,11 +1675,11 @@
 
         ],
         "stats": [
-          "+80% psychic sensitivity"
+          "+80% sensibilidad psíquica"
         ]
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallyhypersensitive",
+      "name": "hipersensibilidadpsíquica",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1663,9 +1687,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
+      "description": "La mente de Timmy es inusualmente sensible a fenómenos psíquicos.",
       "stats": [
-        "+40% psychic sensitivity"
+        "+40% sensibilidad psíquica"
       ],
       "conflicts": [
 
@@ -1681,11 +1705,11 @@
 
         ],
         "stats": [
-          "+40% psychic sensitivity"
+          "+40% sensibilidad psíquica"
         ]
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallysensitive",
+      "name": "sensibilidadpsíquica",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1693,9 +1717,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
+      "description": "La mente de Timmy está desafinada psíquicamente en comparación con la mayoría de las personas. Los fenómenos psíquicos no le afectarán tanto como a los demás.",
       "stats": [
-        "-50% psychic sensitivity"
+        "-50% sensibilidad psíquica"
       ],
       "conflicts": [
 
@@ -1711,11 +1735,11 @@
 
         ],
         "stats": [
-          "-50% psychic sensitivity"
+          "-50% sensibilidad psíquica"
         ]
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydull",
+      "name": "entumecimientopsíquico",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1723,9 +1747,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
+      "description": "La mente de Timmy utiliza una frecuencia psíquica diferente a la de los demás. Los fenomenos psíquicos simplemente no le afectan.",
       "stats": [
-        "-100% psychic sensitivity"
+        "-100% sensibilidad psíquica"
       ],
       "conflicts": [
 
@@ -1741,11 +1765,11 @@
 
         ],
         "stats": [
-          "-100% psychic sensitivity"
+          "-100% sensibilidad psíquica"
         ]
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydeaf",
+      "name": "sorderapsíquica",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1753,13 +1777,13 @@
       "degree": -2
     },
     {
-      "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
+      "description": "La puntería de Timmy es excelente, pero él necesita más tiempo para apuntar a su blanco.",
       "stats": [
-        "+25% aiming time",
-        "+5.0 shooting accuracy"
+        "+25% tiempo para apuntar",
+        "+5.0 precisión de disparo"
       ],
       "conflicts": [
-        "brawler"
+        "luchador"
       ],
       "bypassLimit": false,
       "data": {
@@ -1769,15 +1793,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "luchador"
         ],
         "stats": [
-          "+25% aiming time",
-          "+5.0 shooting accuracy"
+          "+25% tiempo para apuntar",
+          "+5.0 precisión de disparo"
         ]
       },
       "defName": "ShootingAccuracy",
-      "name": "carefulshooter",
+      "name": "tiradorcuidadoso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1785,13 +1809,13 @@
       "degree": 1
     },
     {
-      "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
+      "description": "¡Pum, pum, pum! A Timmy le encanta apretar el gatillo. Dispara mucho más rápido que los demás pero con menos precisión.",
       "stats": [
-        "-50% aiming time",
-        "-5.0 shooting accuracy"
+        "-50% tiempo para apuntar",
+        "-5.0 precisión de disparo"
       ],
       "conflicts": [
-        "brawler"
+        "luchador"
       ],
       "bypassLimit": false,
       "data": {
@@ -1801,15 +1825,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "luchador"
         ],
         "stats": [
-          "-50% aiming time",
-          "-5.0 shooting accuracy"
+          "-50% tiempo para apuntar",
+          "-5.0 precisión de disparo"
         ]
       },
       "defName": "ShootingAccuracy",
-      "name": "trigger-happy",
+      "name": "gatilloalegre",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1817,9 +1841,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
+      "description": "Timmy es excepcionalmente hermosPAWN_gender ? o : a, con una estructura facial exótica pero a la vez familiar y una mirada paralizante. La gente se siente atraída a él aunque él ni siquiera haya abierto la boca.",
       "stats": [
-        "+2.0 beauty"
+        "+2.0 belleza"
       ],
       "conflicts": [
 
@@ -1835,11 +1859,11 @@
 
         ],
         "stats": [
-          "+2.0 beauty"
+          "+2.0 belleza"
         ]
       },
       "defName": "Beauty",
-      "name": "beautiful",
+      "name": "hermoso",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1847,9 +1871,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy has a pretty face, which predisposes people to like him.",
+      "description": "Timmy tiene un bello rostro, lo cual predispone a la gente a gustar de él.",
       "stats": [
-        "+1.0 beauty"
+        "+1.0 belleza"
       ],
       "conflicts": [
 
@@ -1865,11 +1889,11 @@
 
         ],
         "stats": [
-          "+1.0 beauty"
+          "+1.0 belleza"
         ]
       },
       "defName": "Beauty",
-      "name": "pretty",
+      "name": "guapo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1877,9 +1901,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
+      "description": "Timmy es algo fePAWN_gender ? o : a. Esto repele sutilmente a los demás durante las interacciones sociales.",
       "stats": [
-        "-1.0 beauty"
+        "-1.0 belleza"
       ],
       "conflicts": [
 
@@ -1895,11 +1919,11 @@
 
         ],
         "stats": [
-          "-1.0 beauty"
+          "-1.0 belleza"
         ]
       },
       "defName": "Beauty",
-      "name": "ugly",
+      "name": "feo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1907,9 +1931,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
+      "description": "Timmy es increíblemente horrible. Su cara parece una mezcla entre un dibujo hecho por un niño poco talentoso, un feto malforme en un jarrón de formaldehído y una pieza de arte moderno. Los demás tienen que hacer un esfuerzo consciente para mirarlo a la cara mientras habla.",
       "stats": [
-        "-2.0 beauty"
+        "-2.0 belleza"
       ],
       "conflicts": [
 
@@ -1925,11 +1949,11 @@
 
         ],
         "stats": [
-          "-2.0 beauty"
+          "-2.0 belleza"
         ]
       },
       "defName": "Beauty",
-      "name": "staggeringlyugly",
+      "name": "fealdadextrema",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1937,9 +1961,9 @@
       "degree": -2
     },
     {
-      "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
+      "description": "Timmy tiene un sistema inmunológico naturalmente poderoso. Obtendrá inmunidad mucho más rápido de lo que lo haría una persona normal, y puede sobrevivir a enfermedades que matarían a otros.",
       "stats": [
-        "+30% immunity gain speed"
+        "+30% velocidad de inmunización"
       ],
       "conflicts": [
 
@@ -1955,11 +1979,11 @@
 
         ],
         "stats": [
-          "+30% immunity gain speed"
+          "+30% velocidad de inmunización"
         ]
       },
       "defName": "Immunity",
-      "name": "super-immune",
+      "name": "superimmune",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -1967,9 +1991,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
+      "description": "Timmy tiene un sistema inmunológico horrible. Se enferma con más frecuencia de lo normal, con frecuencia con enfermedades que nadie en la colonia ha padecido.",
       "stats": [
-        "+4 medical"
+        "+4 medicina"
       ],
       "conflicts": [
 
@@ -1985,40 +2009,2477 @@
 
         ],
         "stats": [
-          "+4 medical"
+          "+4 medicina"
         ]
       },
       "defName": "Immunity",
-      "name": "sickly",
+      "name": "enfermizo",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": -1
+    },
+    {
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophile",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1
+    },
+    {
+      "description": "Timmy is entombed in a warcasket. No amount of pain will have an effect on them, and they can never go into a pain shock or drop unconscious due to pain. Because of how bulky the armor is and how much energy it takes to use it, Timmy is not capable of doing any work.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VFEP_WarcasketTrait",
+      "name": "warcasket",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy was entombed in a warcasket, and then brutally pulled out of one. The neural and nerve damage from being unplugged is so severe that Timmy is in constant, agonizing pain and can barely assemble his thoughts. Only installing Timmy back in a warcasket can cure the symptoms.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VFEP_Shellcasket",
+      "name": "shellcasket",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy disfruta de la soledad y la tranquilidad inherentes de largas sesiones de pesca. él prefiere pescar antes que hacer otras actividades.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Fishing Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VCEF_Fisherman",
+      "name": "pescador",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Either the body or mind of Timmy is one of insight and experience. While some find them old fashioned, others will respect their guidance.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Ideology Expanded - Memes and Structures",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VME_Elder",
+      "name": "elder",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is an ally who will one day join your faction.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Reunion",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "ReunionCharacter",
+      "name": "(reunion)ally",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 3
+    },
+    {
+      "description": "Timmy is a biotic god.",
+      "stats": [
+        "x50 biotic energy limit",
+        "x50 biotic energy recovery rate"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Core",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "x50 biotic energy limit",
+          "x50 biotic energy recovery rate"
+        ]
+      },
+      "defName": "RE_BioticGod",
+      "name": "bioticgod",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy’s biotic capabilities are significantly dampened by past trauma, or simply the lack of predisposition.",
+      "stats": [
+        "-0.8 biotic energy recovery rate"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Core",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "-0.8 biotic energy recovery rate"
+        ]
+      },
+      "defName": "RE_BioticRecoveryOffset",
+      "name": "bioticallydeaf",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -2
+    },
+    {
+      "description": "Timmy has not yet unlocked their full biotic potential, and most likely never will.",
+      "stats": [
+        "-0.5 biotic energy recovery rate"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Core",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "-0.5 biotic energy recovery rate"
+        ]
+      },
+      "defName": "RE_BioticRecoveryOffset",
+      "name": "bioticallydull",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1
+    },
+    {
+      "description": "Timmy’s biotic skills are greatly above average, allowing them to use the power without any fear of migraines or discomfort.",
+      "stats": [
+        "+0.5 biotic energy recovery rate"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Core",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+0.5 biotic energy recovery rate"
+        ]
+      },
+      "defName": "RE_BioticRecoveryOffset",
+      "name": "bioticallyskilled",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy’s biotic skills are known far and wide across the galaxy due to their talent and rare predisposition.",
+      "stats": [
+        "+2 biotic energy recovery rate"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Core",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+2 biotic energy recovery rate"
+        ]
+      },
+      "defName": "RE_BioticRecoveryOffset",
+      "name": "bioticallytalented",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 2
+    },
+    {
+      "description": "Timmy is a Demon of the Night Winds.",
+      "stats": [
+        "x150% biotic energy limit",
+        "x200% biotic energy recovery rate",
+        "x50% biotic ability cost multiplier"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Effect: Asari and Reapers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "x150% biotic energy limit",
+          "x200% biotic energy recovery rate",
+          "x50% biotic ability cost multiplier"
+        ]
+      },
+      "defName": "RE_ArdatYakshi",
+      "name": "ardatyakshi",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy tends to occasionally allow their mind to drift, even in the middle of working.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "workaholic",
+        "diligente",
+        "muytrabajador",
+        "haragán",
+        "perezoso"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "workaholic",
+          "diligente",
+          "muytrabajador",
+          "haragán",
+          "perezoso"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AbsentMinded",
+      "name": "absent-minded",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a loose screw or two, a small trade off for being naturally scientifically inclined.",
+      "stats": [
+        "x115% velocidad de investigación"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dunce"
+        ],
+        "stats": [
+          "x115% velocidad de investigación"
+        ]
+      },
+      "defName": "VTE_Eccentric",
+      "name": "eccentric",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy strives for perfection in su work. They will naturally produce better quality products at the expense of time. However, making a low quality product will upset them. Additionally, they may very rarely quit a project mid attempt if they don't like the direction its going in.",
+      "stats": [
+        "x65% velocidad de trabajo general"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "x65% velocidad de trabajo general"
+        ]
+      },
+      "defName": "VTE_Perfectionist",
+      "name": "perfectionist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "While fully capable of warfare in theory, Timmy's fight or flight instincts heavily lean towards flight, and él will try to hide or run as a first priority.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "luchador",
+        "brave",
+        "sanguinario"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "luchador",
+          "brave",
+          "sanguinario"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Coward",
+      "name": "coward",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a higher mental and physical fortitude compared to most and can more readily adapt to harsh environments in the rimworlds.",
+      "stats": [
+        "-20% umbral de colapso mental",
+        "+20% umbral de dolor"
+      ],
+      "conflicts": [
+        "cobarde",
+        "coward"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "cobarde",
+          "coward"
+        ],
+        "stats": [
+          "-20% umbral de colapso mental",
+          "+20% umbral de dolor"
+        ]
+      },
+      "defName": "VTE_Brave",
+      "name": "brave",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Minor bruises and scrapes plague Timmy all too often, mostly due to uncoordinated tripping or falling.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "ágil"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "ágil"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Clumsy",
+      "name": "clumsy",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves the brightness and heat of a dry summer day. They don't mind working up a sweat or sleeping in the warmth either.",
+      "stats": [
+        "+10.0C temperatura máxima agradable"
+      ],
+      "conflicts": [
+        "coldinclined"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "coldinclined"
+        ],
+        "stats": [
+          "+10.0C temperatura máxima agradable"
+        ]
+      },
+      "defName": "VTE_HeatInclined",
+      "name": "heatinclined",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves the overcast and cold of a brisk winter night. They don't mind getting chilly or sleeping in the cold either.",
+      "stats": [
+        "-10.0C temperatura mínima agradable"
+      ],
+      "conflicts": [
+        "heatinclined"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "heatinclined"
+        ],
+        "stats": [
+          "-10.0C temperatura mínima agradable"
+        ]
+      },
+      "defName": "VTE_ColdInclined",
+      "name": "coldinclined",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "A bomb could go off next to Timmy while they sleep and they'd continue to do so. They can't be bothered to defend the colony mid catnap, either.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_HeavySleeper",
+      "name": "heavysleeper",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is naturally hygenic and organized. They will not track in dirt or throw trash anywhere, and feel happy while cleaning.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "slob"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "slob"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Neat",
+      "name": "neat",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is sloppy naturally and leaves trash and dirt everywhere it seems. At least they're not much bothered by messes.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "neat"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "neat"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Slob",
+      "name": "slob",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has problems taking breaks or resting mid job. él will continue to work even sacrificing their health or sleep.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "absent-minded",
+        "diligente",
+        "muytrabajador",
+        "haragán",
+        "perezoso"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "absent-minded",
+          "diligente",
+          "muytrabajador",
+          "haragán",
+          "perezoso"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Workaholic",
+      "name": "workaholic",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has never felt nausea in su life. Throwing up or food poisoning is foreign to lo.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_IronStomach",
+      "name": "ironstomach",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy can't stand mistreatment of animals. él will feel happier being nuzzled or being a master to a bonded animal, but will be more deeply crushed when not master of a bonded animal or seeing one die. They also refuse to butcher.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AnimalLover",
+      "name": "animallover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes deeply in human superiority. Killing animals will please them and the colony losing an animal is a cherry on top according to them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "animallover",
+        "menagerist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animallover",
+          "menagerist"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AnimalHater",
+      "name": "animalhater",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether because they're a bit chunky or because they shift their weight oddly, Timmy has broken a few chairs in their time and is likely to break more.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_BigBoned",
+      "name": "big-boned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy only plays by their own rules, and will roll their eyes and take it easy while doing any task they've been forced to do.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "submissive"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "submissive"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Rebel",
+      "name": "rebel",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy needs clear instructions on how, and when to do certain things and will only work at a normal speed when being forced to do something.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "rebel"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "rebel"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Submissive",
+      "name": "submissive",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is fueled by spite. They can't stand walking on the same soil as their rivals and will be elated by news of their life ending.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "amable"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "amable"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Vengeful",
+      "name": "vengeful",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether by past trauma or fear of change, Timmy rejects modernity. They may randomly punch or attack mechanical devices and refuse to learn or research anything about them. They also love killing mechanoids.",
+      "stats": [
+        "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+      ],
+      "conflicts": [
+        "modificadordelcuerpo"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "modificadordelcuerpo"
+        ],
+        "stats": [
+          "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+        ]
+      },
+      "defName": "VTE_Technophobe",
+      "name": "technophobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy always recalls the good times and lives to party, any party attended will be remembered for many times longer than most.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "anxious"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "anxious"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_FunLoving",
+      "name": "fun-loving",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has hindered mental capacities. While slow to learn and hard to speak with, they tend to be much happier naturally.",
+      "stats": [
+        "-50% factor de aprendizaje global",
+        "-50.00% impacto social"
+      ],
+      "conflicts": [
+        "aprendizrápido",
+        "demasiadolisto",
+        "eccentric",
+        "prodigy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "aprendizrápido",
+          "demasiadolisto",
+          "eccentric",
+          "prodigy"
+        ],
+        "stats": [
+          "-50% factor de aprendizaje global",
+          "-50.00% impacto social"
+        ]
+      },
+      "defName": "VTE_Dunce",
+      "name": "dunce",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy learned a specific move in melee combat which allows them to disarm opponents and will use it frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_MartialArtist",
+      "name": "martialartist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes they belong in high society, and loves nothing more than critiquing art and brushing elbows with royalty.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "austero"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "austero"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Snob",
+      "name": "snob",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Sour stomach plagues Timmy any time they're around too much blood or rotting corpses. Vomiting is just part of life for lo.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "ironstomach",
+        "desensitized"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "ironstomach",
+          "desensitized"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Squeamish",
+      "name": "squeamish",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy feels naturally anxious, but especially from social situations. They will not attend any gatherings and may occasionally need alone time in their room to breathe.",
+      "stats": [
+        "Only mental break \"VTE_PanicFreezing\" allowed."
+      ],
+      "conflicts": [
+        "fun-loving"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "fun-loving"
+        ],
+        "stats": [
+          "Only mental break \"VTE_PanicFreezing\" allowed."
+        ]
+      },
+      "defName": "VTE_Anxious",
+      "name": "anxious",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "No amount of lovin' is enough lovin' for Timmy. él will tend to jump from partner to partner and tumble between the sheets with them frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "prude",
+        "asexual",
+        "nudista"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "prude",
+          "asexual",
+          "nudista"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Insatiable",
+      "name": "insatiable",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy refuses to give their body to anybody but their spouse and would never fathom initiating a divorce. They also hate being nude much more than other pawns.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "insatiable",
+        "nudista"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "insatiable",
+          "nudista"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Prude",
+      "name": "prude",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "An armchair and flatscreen is all Timmy needs to be happy. Even reruns or ancient commercials are entertaining to them, they will never grow bored of television and tend to watch it more, as well as feel pleased after doing so.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_CouchPotato",
+      "name": "couchpotato",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is mad for all things feline. They will naturally gravitate towards bonding with cats, however they're not a fan of dogs.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "dogperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dogperson"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_CatPerson",
+      "name": "catperson",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is mad for all things canine. They will naturally gravitate towards bonding with dogs, however they're not a fan of cats.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "catperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "catperson"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_DogPerson",
+      "name": "dogperson",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is a natural scientist. They research much faster and recall things better. However, they'll be upset without a laboratory dedicated to their work and tend to stress out more frequently.",
+      "stats": [
+        "+20% umbral de colapso mental",
+        "x130% velocidad de investigación"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dunce"
+        ],
+        "stats": [
+          "+20% umbral de colapso mental",
+          "x130% velocidad de investigación"
+        ]
+      },
+      "defName": "VTE_Prodigy",
+      "name": "prodigy",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes animals are integral to the way society and life functions from furry friends to sources of food. They love having as many as possible and are particularly good at taming and training them.",
+      "stats": [
+        "x120% prob. de domesticación animal",
+        "x120% probabilidad de entrenamiento"
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [
+          "x120% prob. de domesticación animal",
+          "x120% probabilidad de entrenamiento"
+        ]
+      },
+      "defName": "VTE_Menagerist",
+      "name": "menagerist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "The sea calls to Timmy. él feels happier just being near the ocean or a deep river.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ChildOfSea",
+      "name": "oceanlover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "The mountains call to Timmy. él feels happier just being near a large mountain.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ChildOfMountain",
+      "name": "mountainlover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a twisted secret. él treats organ harvesting like a sick experiment, and does not even blink at the idea. While harvesting one will make them happy, going too long without giving in to their compulsion will upset them.",
+      "stats": [
+        "+20% factor de éxito de la cirugía"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+20% factor de éxito de la cirugía"
+        ]
+      },
+      "defName": "VTE_MadSurgeon",
+      "name": "madsurgeon",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is supposedly a hand-to-hand combat specialist, but only when inebriated. They claim to become more talented the more drunk they are.",
+      "stats": [
+        "+4 cuerpo a cuerpo"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 cuerpo a cuerpo"
+        ]
+      },
+      "defName": "VTE_DrunkenMaster",
+      "name": "drunkenmaster",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is compulsed to steal and take things that don't belong to them, even if it means angering the other party.",
+      "stats": [
+        "Only mental break \"VTE_Kleptomaniac\" allowed."
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "Only mental break \"VTE_Kleptomaniac\" allowed."
+        ]
+      },
+      "defName": "VTE_Kleptomaniac",
+      "name": "kleptomaniac",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Smokeleaf culture is just part of life for Timmy. él absolutely adores smokeleaf and would rather die before giving it up.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "fascinaciónquímica",
+        "interésquímica",
+        "abstemio",
+        "lush"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "fascinaciónquímica",
+          "interésquímica",
+          "abstemio",
+          "lush"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Stoner",
+      "name": "stoner",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Alcohol culture is just part of life for Timmy. él absolutely adores booze and would rather die before giving it up.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "fascinaciónquímica",
+        "interésquímica",
+        "abstemio",
+        "lush"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "fascinaciónquímica",
+          "interésquímica",
+          "abstemio",
+          "lush"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Lush",
+      "name": "lush",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves to travel and does so swiftly, but can grow upset if they haven't done so in a while. They are also quite adept at foraging while traveling.",
+      "stats": [
+        "+0.2 cantidad de comida forrajeada"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+0.2 cantidad de comida forrajeada"
+        ]
+      },
+      "defName": "VTE_Wanderlust",
+      "name": "wanderlust",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is never really asleep or awake. él is almost zombie like, lurching along and working very slowly, and will only sleep once every three days or so.",
+      "stats": [
+        "x50% velocidad de trabajo general",
+        "x70% velocidad de movimiento"
+      ],
+      "conflicts": [
+        "heavysleeper"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "heavysleeper"
+        ],
+        "stats": [
+          "x50% velocidad de trabajo general",
+          "x70% velocidad de movimiento"
+        ]
+      },
+      "defName": "VTE_Insomniac",
+      "name": "insomniac",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has grown tired of the world and needs to be constantly distracted to stop dark thoughts. su bleak personality is a big downer and therefore it is very hard to become friends with them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_WorldWeary",
+      "name": "worldweary",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is hardened through what can only be presumed as old emotional trauma. They feel absolutely nothing from lost animals, colonists, family, prisoners or dead bodies.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Desensitized",
+      "name": "desensitized",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Only the finest of culinary creations may grace the lips of Timmy. They feel neutral towards mundane meals, but will laud and savour lavish meals down to the last bite.",
+      "stats": [
+        "x70% velocidad de alimentación"
+      ],
+      "conflicts": [
+        "austero"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "austero"
+        ],
+        "stats": [
+          "x70% velocidad de alimentación"
+        ]
+      },
+      "defName": "VTE_RefinedPalate",
+      "name": "refinedpalate",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether through studying ancient manuscripts or years of scholastic pursuit Timmy is surprisingly well read on a variety of topics, particularly science and medical practice.",
+      "stats": [
+        "+4 intelectual",
+        "+4 medicina",
+        "+20% calidad del trat. médico"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 intelectual",
+          "+4 medicina",
+          "+20% calidad del trat. médico"
+        ]
+      },
+      "defName": "VTE_Academian",
+      "name": "academian",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy strongly believes infrastucture rules all and is a natural born stoneworker.",
+      "stats": [
+        "+4 minería",
+        "+4 construcción",
+        "+20% rendimiento minero",
+        "+20% velocidad de construcción"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 minería",
+          "+4 construcción",
+          "+20% rendimiento minero",
+          "+20% velocidad de construcción"
+        ]
+      },
+      "defName": "VTE_Groundbreaker",
+      "name": "groundbreaker",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "In the eyes of Timmy food is art, their culinary creations are incredibly beautiful, amazing to taste, and almost always safe to eat.",
+      "stats": [
+        "+4 cocina",
+        "+4 arte",
+        "-25.00% prob. intoxicación alimentaria"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 cocina",
+          "+4 arte",
+          "-25.00% prob. intoxicación alimentaria"
+        ]
+      },
+      "defName": "VTE_Gastronomist",
+      "name": "gastronomist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Flora and fauna are both vital to Timmy. They use all parts of plants and animals and strongly appreciate mother Gaia's blessings.",
+      "stats": [
+        "+4 animales",
+        "+4 agricultura",
+        "+20% ren. de la cosecha vegetal",
+        "+20% eficiencia del despieze"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 animales",
+          "+4 agricultura",
+          "+20% ren. de la cosecha vegetal",
+          "+20% eficiencia del despieze"
+        ]
+      },
+      "defName": "VTE_Ecologist",
+      "name": "ecologist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has an eye for silver and a tongue made from it. They believe their products are the best products and él will likely convince you if given the chance.",
+      "stats": [
+        "+4 socialización",
+        "+4 fabricación",
+        "+25.00% mejora de regateo"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 socialización",
+          "+4 fabricación",
+          "+25.00% mejora de regateo"
+        ]
+      },
+      "defName": "VTE_Tycoon",
+      "name": "tycoon",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is strangely hypercoagulating and will bleed much more slowly than most.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "thinskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "thinskinned"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ThickSkinned",
+      "name": "thickskinned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is strangely hemophilic and tends to bleed much more profusely than others.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "thickskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "thickskinned"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ThinSkinned",
+      "name": "thinskinned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has trouble expressing themselves until its all too much to bear, whereafter they will have an utter meltdown.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "voluntaddehierro",
+        "resuelto",
+        "nervioso",
+        "inestable"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "voluntaddehierro",
+          "resuelto",
+          "nervioso",
+          "inestable"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Schizoid",
+      "name": "schizoid",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is romantically attracted to people of the opposite gender.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rational Romance (Continued)",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Straight",
+      "name": "straight",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy will never cheat on a partner, no matter how bad the relationship gets.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "philanderer"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rational Romance (Continued)",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "philanderer"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Faithful",
+      "name": "faithful",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy just cannot be trusted to stay faithful to a partner.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "faithful"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rational Romance (Continued)",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "faithful"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Philanderer",
+      "name": "philanderer",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy prefers romantic relationships involving multiple partners to monogamous relationships. él doesn't mind if su partners romance other people, but will be less happy in a restraining, monogamous relationship.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "asexual"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rational Romance (Continued)",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "asexual"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Polyamorous",
+      "name": "polyamorous",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
     {
       "data": {
         "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
-          "+3 Honor value"
+          "+60.00 Peso",
+          "+70% Inflamabilidad",
+          "+1750$ Valor de mercado",
+          "+4.60 Velocidad de movimiento",
+          "+16.0C Temperatura mínima agradable",
+          "+26.0C Temperatura máxima agradable",
+          "+75 Cantidad de cuero",
+          "+3 Valor del honor"
         ],
-        "mod": "RimWorld",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
-      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
+      "description": "Un humano estándar. No modificado por la ingeniería genética ni por cambios evolutivos.",
       "defName": "Human",
       "enabled": true,
-      "name": "human",
-      "price": 2917
+      "name": "humano",
+      "price": 1500
+    },
+    {
+      "data": {
+        "stats": [
+          "+75.00 Peso",
+          "+100% Inflamabilidad",
+          "+1500$ Valor de mercado",
+          "+4.61 Velocidad de movimiento",
+          "-50.0C Temperatura mínima agradable",
+          "+50.0C Temperatura máxima agradable",
+          "+20% Sensibilidad tóxica",
+          "+135% Velocidad de inmunización",
+          "+25 Cantidad de cuero"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of humanlike robots which are mostly female in model variety.\n\nThe origins of these machines are mostly unknown. Some speculate they are escapees from a civilization which used them for labor and some just suggest they are outdated pleasure machines which got dumped by a passing space freighter.\n\nBy design by their previous masters they are weak physically but their raw fortitude is enough to make up for it. Beware of their biological reactor and capacitors violently exploding, if they die by overheating.",
+      "defName": "ChjAndroid",
+      "enabled": true,
+      "name": "android",
+      "price": 2200
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Peso",
+          "+0% Inflamabilidad",
+          "+850$ Valor de mercado",
+          "+5.21 Velocidad de movimiento",
+          "-200.0C Temperatura mínima agradable",
+          "+300.0C Temperatura máxima agradable",
+          "+0% Sensibilidad tóxica",
+          "+0% Sensibilidad psíquica",
+          "+500% Umbral de dolor",
+          "+0% Umbral de colapso mental",
+          "+0.00% Impacto social",
+          "+0% Factor de aprendizaje global",
+          "+1000% Velocidad de inmunización",
+          "+0 Cantidad de cuero",
+          "+0 Cantidad de carne",
+          "+30.0% Armadura - Cortante",
+          "+20.0% Armadura - Contundente",
+          "+200.0% Armadura - Calor",
+          "+75 Capacidad de carga"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": true
+      },
+      "description": "A race of rudimentary humanlike worker robots.\n\nUsually found toiling around in colonies around the rim which got a resident tinkerer.\n\nNot capable of sapience, however their relative cheap cost and ability to work around the clock make them valuable workers.",
+      "defName": "ChjDroid",
+      "enabled": true,
+      "name": "droidwork",
+      "price": 2000
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Peso",
+          "+0% Inflamabilidad",
+          "+1900$ Valor de mercado",
+          "+4.00 Velocidad de movimiento",
+          "-200.0C Temperatura mínima agradable",
+          "+500.0C Temperatura máxima agradable",
+          "+0% Sensibilidad tóxica",
+          "+0% Sensibilidad psíquica",
+          "+500% Umbral de dolor",
+          "+0% Umbral de colapso mental",
+          "+0.00% Impacto social",
+          "+0% Factor de aprendizaje global",
+          "+1000% Velocidad de inmunización",
+          "+0 Cantidad de cuero",
+          "+0 Cantidad de carne",
+          "-0.4 Prob. de esquivar golpes CaC.",
+          "+100.0% Armadura - Cortante",
+          "+40.0% Armadura - Contundente",
+          "+200.0% Armadura - Calor",
+          "+150 Capacidad de carga"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": true
+      },
+      "description": "A race of rudimentary humanlike warrior robots.\n\nUsually found guarding the homes of the wealthy and offices of mega corporations. They show no mercy upon targets who fail to identify themselves. Are traditionally armed with miniguns and core launchers.",
+      "defName": "ChjBattleDroid",
+      "enabled": true,
+      "name": "droidebatalla",
+      "price": 3000
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Peso",
+          "+70% Inflamabilidad",
+          "+2000$ Valor de mercado",
+          "+4.60 Velocidad de movimiento",
+          "+16.0C Temperatura mínima agradable",
+          "+26.0C Temperatura máxima agradable",
+          "+50 Cantidad de cuero",
+          "+4 Valor del honor",
+          "+2.0 Belleza",
+          "+2 Biotic energy limit",
+          "+1 Biotic energy recovery rate",
+          "+100.0% Biotic ability cost multiplier"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Elegant mono-gender race. Native to the planet Thessia, Asari are often considered the most influential and respected sentient species in the galaxy, and are known for their, diplomacy and biotic aptitude. Asari can often use biotic powers without the need of biotic amplifiers.",
+      "defName": "RE_Asari",
+      "enabled": true,
+      "name": "asari",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Peso",
+          "+70% Inflamabilidad",
+          "+2000$ Valor de mercado",
+          "+4.60 Velocidad de movimiento",
+          "+26.0C Temperatura mínima agradable",
+          "+36.0C Temperatura máxima agradable",
+          "+50 Cantidad de cuero",
+          "+4 Valor del honor"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "An omnivorous, reptile-like race that was rescued from their dying homeworld by the hanar. Since then, the drell have remained loyal to them for their camaraderie and have fit comfortably into galactic civilization. Their culture allows Drell to separate their mind from their body, helping them through hard times and work. They are predisposed to Kepral's syndrome, a lethal condition which can develop if Drell stays in cold temperatures too long.",
+      "defName": "RE_Drell",
+      "enabled": true,
+      "name": "drell",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+80.00 Peso",
+          "+33% Inflamabilidad",
+          "+1750$ Valor de mercado",
+          "+5.00 Velocidad de movimiento",
+          "+75 Cantidad de cuero",
+          "+2 Valor del honor",
+          "+5.0 Precisión de disparo",
+          "+120% Sensibilidad psíquica",
+          "+50% Sensibilidad tóxica",
+          "+21.0C Temperatura mínima agradable",
+          "+36.0C Temperatura máxima agradable",
+          "+110% Velocidad de inmunización",
+          "+64% Umbral de dolor",
+          "+80% Tiempo para apuntar",
+          "+80.00% Prob. de domesticación animal",
+          "+80.00% Probabilidad de entrenamiento",
+          "+80% Ren. de recolección de animales",
+          "+80% Velocidad de agricultura",
+          "+110% Eficiencia del despieze",
+          "+150% Eficiencia de desmontaje",
+          "+9.60 Tasa de recuperación del calor neural"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Naga are a technologically advanced race without a functional goverment or law enforcement since their homeworld has become inhabitable.  This means they can be found mostly on space stations and ships and occassionally on Rimworlds as well.\n\nThey tend to work as mercenaries for the highest bidder and offer their superior skills with guns. Not just as excellent shooters, but also as weapon manufacturers. Their plasma technology is only rivaled by the charge weapons of glitterworlds. Naga are also known for their regenerative abilities and proficiency at disassembling mechanoids.\n\nDespite this their way of life does not go well with others and thus they struggle to find allies among other races.\n\nGood at: Shooting, Butchering, Mechanoid Disassembly, Psychics, Quality Crafting/Construction\nBad at: Melee, Plants, Animals, Enduring Pain",
+      "defName": "Naga",
+      "enabled": true,
+      "name": "naga",
+      "price": 2200
+    },
+    {
+      "data": {
+        "stats": [
+          "+40.00 Peso",
+          "+75% Inflamabilidad",
+          "+1250$ Valor de mercado",
+          "+6.00 Velocidad de movimiento",
+          "+21.0C Temperatura mínima agradable",
+          "+36.0C Temperatura máxima agradable",
+          "+40 Cantidad de cuero",
+          "+3 Valor del honor",
+          "+50 Capacidad de carga",
+          "+5.0 Prob. de golpe cuerpo a cuerpo",
+          "+5.0 Prob. de esquivar golpes CaC.",
+          "+90% Umbral de dolor",
+          "+1.0 Belleza"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A dangerous, bloodlusty race of humanoid avians. Harpies constantly fight among themselves, hindering any major progress among their own. Their overwhelming bloodlust is hard to satisfy, but that also means they are naturally born fighters. Their razor-sharp claws and deadly lightning attacks make them a formidable foe, even if unarmed - not that harpies can wield weapons effectively.\n\nGood at: Melee, Ranged without weapon, Enduring Pain, Running, Flying, Looking beautiful\nBad at: Using weapons (they can't), Carrying, Not constantly fighting",
+      "defName": "Harpy",
+      "enabled": true,
+      "name": "harpy",
+      "price": 1850
+    },
+    {
+      "data": {
+        "stats": [
+          "+80.00 Peso",
+          "+50% Inflamabilidad",
+          "+2500$ Valor de mercado",
+          "+4.60 Velocidad de movimiento",
+          "+6.0C Temperatura mínima agradable",
+          "+26.0C Temperatura máxima agradable",
+          "+75 Cantidad de cuero",
+          "+125 Capacidad de carga",
+          "+5.0 Prob. de golpe cuerpo a cuerpo",
+          "+80% Multiplicador de daño recibido",
+          "+90% Umbral de dolor",
+          "+2 Cantidad de comida forrajeada",
+          "+70.00% Mejora de regateo",
+          "+120.00% Capacidad diplomática",
+          "+0.5 Belleza",
+          "+133% Tiempo para apuntar",
+          "+80% Velocidad de investigación",
+          "+80% Velocidad de sintetizado",
+          "+110.00% Prob. de domesticación animal",
+          "+110.00% Probabilidad de entrenamiento",
+          "+120% Ren. de recolección de animales",
+          "+120% Velocidad de agricultura",
+          "+110% Ren. de la cosecha vegetal",
+          "+30.0% Armadura - Cortante",
+          "+10.0% Armadura - Contundente",
+          "+20.0% Armadura - Calor",
+          "+6 Valor del honor"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A large, graceful humanoid creature, with long white fur, a large sharp horn and short simple tail. Their striking resemblance to Thrumbos gave them their name and leaves no doubt to where this race might have originated from.\n\nWhile generally peaceful they make excellent melee fighters, thanks to their resilent hide and razor sharp horn. Thrumkin live in harmony with nature and know more about plants and animals than most advanced cultures, at least on the planet they are living on.\n\nThey are not particularly skilled when it comes to building tools and using them, neither are their structures more than simple protection from the elements.\n\nGood at: Melee, Plants, Animals, General Labor, Absorbing Damage\nBad at: Shooting, Quality Crafting/Construction, Drug Production, Research, Trading, Cooking, Not eating your entire supplies of food",
+      "defName": "Thrumkin",
+      "enabled": true,
+      "name": "thrumkin",
+      "price": 3500
     }
   ]
 }
